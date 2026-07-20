@@ -12,4 +12,6 @@ Features
 📋 Full activity history log
 🌍 All-time total stats
 
-before u run this app make sure u install streamlit, pandas and plotly aand when it gives warning try to type this     python -m streamlit run app.py
+
+
+before u run this app make sure u install streamlit, pandas and plotly and if it gives warning try to type this     python -m streamlit run app.py in terminal and it automatically runs it
