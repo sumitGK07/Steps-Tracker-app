@@ -31,52 +31,30 @@ st.markdown(
         background-color: #111827;
     }
 
-    section[data-testid="stSidebar"] * {
-        color: white;
+    /* Sidebar labels remain white */
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3,
+    section[data-testid="stSidebar"] p {
+        color: white !important;
+    }
+
+    /* Text inside input boxes becomes black */
+    section[data-testid="stSidebar"] input {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    /* Selectbox text */
+    section[data-testid="stSidebar"] [data-baseweb="select"] {
+        color: black !important;
     }
 
     .main-title {
         font-size: 42px;
         font-weight: 700;
         color: #111827;
-    }
-
-    .subtitle {
-        font-size: 18px;
-        color: #6b7280;
-        margin-bottom: 30px;
-    }
-
-    .metric-card {
-        background-color: white;
-        padding: 22px;
-        border-radius: 16px;
-        border: 1px solid #e5e7eb;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-        min-height: 140px;
-    }
-
-    .metric-icon {
-        font-size: 28px;
-    }
-
-    .metric-title {
-        color: #6b7280;
-        font-size: 15px;
-        margin-top: 8px;
-    }
-
-    .metric-value {
-        font-size: 30px;
-        font-weight: 700;
-        color: #111827;
-    }
-
-    .footer {
-        text-align: center;
-        color: #6b7280;
-        padding: 30px;
-        font-size: 14px;
     }
 
     </style>
