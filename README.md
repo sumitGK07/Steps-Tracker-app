@@ -14,4 +14,4 @@ Features
 
 
 
-before u run this app make sure u install streamlit, pandas and plotly and if it gives warning try to type this     python -m streamlit run app.py in terminal and it automatically runs it
+before u run this app make sure u install streamlit, pandas. and if it gives warning try to type this     python -m streamlit run app.py in terminal and it automatically runs it
